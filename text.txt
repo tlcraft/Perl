@@ -1,0 +1,12 @@
+This is a simple test file.
+This will be input into the simplePerlGrep script and be searched for a string.
+
+Testing 1234
+Test Test 
+test 0987
+
+Apple
+Bread
+Cheese
+Drinks
+
