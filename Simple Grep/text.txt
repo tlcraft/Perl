@@ -1,5 +1,6 @@
 This is a simple test file.
-This will be input into the simplePerlGrep script and be searched for a string.
+This will be input into the simplePerlGrep script.
+We'll use it to search for strings.
 
 Testing 1234
 Test Test 
@@ -11,3 +12,4 @@ Cheese
 Drinks
 
 Te st tes t t est tes t
+End of File
