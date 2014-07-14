@@ -15,8 +15,10 @@ chomp( @nameArray = <STDIN> );
 
 foreach $line ( @sortedArray ) 
 {
-	$line =~ /^(.*), (.*)$/;
-	print "$2 $1\n";
+	if ( $line =~ /^(.*), (.*)$/ ) 
+	{
+		print "$2 $1\n";
+	}
 }
 
 print "\n";

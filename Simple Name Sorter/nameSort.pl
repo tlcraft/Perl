@@ -16,7 +16,10 @@ chomp (@fileNames = <STDIN>);
 foreach $line (@sortedNames)
 {
 	($last, $first) = split /, /, $line;
-	print "$first $last\n";
+	if ( defined $first && defined $last)
+	{
+		print "$first $last\n";
+	}
 }
 
 print "\n";
