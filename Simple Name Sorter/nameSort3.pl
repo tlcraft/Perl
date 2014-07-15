@@ -11,7 +11,7 @@ my (@names,
 
 foreach $line ( sort @names )
 {
- 	if ( $line =~ /^(\w*), (\w*)\n/ )
+ 	if ( $line =~ /^([a-zA-Z]*), ([a-zA-Z]*)\n/ )
 	{
 		print "$2 $1\n"
 	}

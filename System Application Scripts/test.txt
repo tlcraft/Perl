@@ -1,0 +1,7 @@
+root:*:0:0:Root:/test/test:/usr/bin/sh
+daemon:*:1:1:Services:/var/root:/bin/false
+nobody:*:2:2:No User:/var/empty:/usr/bin/csh
+test:*:3:3:Test:test/test:/usr/bin/sh
+a:*:4:4:A:a:a
+
+
