@@ -14,17 +14,15 @@ my ($line,
     $shell,
     @inputFile);
 
-chomp ( @inputFile = <STDIN> );
+chomp ( @inputFile = <> );
 
 print "Users who use sh:\n";
 
 foreach $line ( @inputFile )
 {
-	($login, $pass, $uid, $gid, $name, $homeDir, $shell) = split(/:/, $line ); 
-
-	if ( defined ( $shell ) && $shell =~ /^\/usr\/bin\/sh$/ )
-	{		
-		print "$login\n";
+	if ( ($login, $pass, $uid, $gid, $name, $homeDir, $shell) = split(/:/, $line ) ) 
+	{
+		print "$login\n" if ( $shell =~ /^\/usr\/bin\/sh$/ );
 	}
 }
 
