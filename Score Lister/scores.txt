@@ -1,0 +1,7 @@
+John 240
+Jane 130
+Joe    47
+Carol 299
+Bill 89
+Jane 289
+Adam 125
